@@ -39,5 +39,5 @@ close(){
 }
 ```
 
-##Prototype
+## Prototype
 This repository holds the bare-metal processing framework required for processing a given SQL statement. 
