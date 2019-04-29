@@ -40,4 +40,13 @@ close(){
 ```
 
 ## Prototype
-This repository holds the bare-metal processing framework required for processing a given SQL statement. 
+This repository holds the bare-metal processing framework required for processing a given SQL statement. *processing/volcano.hpp* contains the skeletong for each of the operations that are used to evaluate a given SQL.
+
+# Task
+
+Your task is to implement the following
+
+1. Implement missing operations in *volcano.hpp*
+2. Implement the volcano based execution plan as well as compiled execution plan for the given queries
+
+The results of both the models must evaluate to equal.
