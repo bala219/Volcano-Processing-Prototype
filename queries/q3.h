@@ -18,6 +18,7 @@
 /*
  * SELECT SUM(A),A
  * FROM Table1
+ * GROUP BY A
  * ORDER BY A;
  */
 namespace CoGaDB{
