@@ -15,7 +15,7 @@ In compiled execution, the SQL is parsed and compiled into a tightly wounded fun
 
 Also known as iterator-based processing, the input is iteratively processed by the operator sequence mentioned in the SQL. This method was devised by Dr.Goetz Gräfe and is detailed in the paper
 
-[Query evaluation techniques for large databases](https://web.stanford.edu/class/cs346/2014/graefe.pdf)
+[Query evaluation techniques for large databases](https://web.stanford.edu/class/cs346/2014/graefe.pdf) - Table 1. Examples of Iterator Functions shows all the necessary steps for implementing the open, next and close functions
 
 The operations in this technique, iteratively consume data from previous operation, process input data and pass it to the next operator. This provides the flexibility of processing any arbitrary functions without any rework.
 
