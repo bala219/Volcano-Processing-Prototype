@@ -54,3 +54,7 @@ The results of both the models must evaluate to equal.
 # Optional Tasks
 3. Implement any two of the TPC-H queries ( [specification](http://www.tpc.org/tpc_documents_current_versions/pdf/tpc-h_v2.18.0.pdf) ). The input data can be generated and can be random integers
 4. Try threading to have functional parallelism across the operations. 
+
+# Details
+
+1. The Query 3 
