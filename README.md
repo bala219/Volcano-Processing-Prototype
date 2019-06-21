@@ -57,4 +57,4 @@ The results of both the models must evaluate to equal.
 
 # Details
 
-1. The Query 3 
+1. The Query 3 in the comment misses "GROUP BY A"
