@@ -40,20 +40,21 @@ close(){
 ```
 
 ## Prototype
-This repository holds the bare-metal processing framework required for processing a given SQL statement. *processing/volcano.hpp* contains the skeletong for each of the operations that are used to evaluate a given SQL.
+This repository holds the bare-metal processing framework required for processing a given SQL statement. *processing/volcano.hpp* contains the skeleton for each of the operations that are used to evaluate a given SQL.
 
 # Task
 
+Last ATDB proect was to have a hands-on in understanding the processing model in general. This time we move a step further by directly incorporating functionalities of modern processors for faster processing. 
+
 Your task is to implement the following
 
-1. Implement missing operations in *volcano.hpp*
-2. Implement the volcano based execution plan as well as compiled execution plan for the given queries
+1. Implement missing operations in *volcano.hpp* using SIMD (Selection, project, sort, hash joins, aggregation)
+2. Implement the volcano based execution plan as well as compiled execution plan for the given queries (Note: the compiled query plan musz also be in SIMD)
 
 The results of both the models must evaluate to equal.
 
 # Optional Tasks
-3. Implement any two of the TPC-H queries ( [specification](http://www.tpc.org/tpc_documents_current_versions/pdf/tpc-h_v2.18.0.pdf) ). The input data can be generated and can be random integers
-4. Try threading to have functional parallelism across the operations. 
+3. Use threading for parallel execution of multiple operations running in parallel. Check the exchange operator for more details about this [Encapsulation of parallelism in the volcano processing model](https://w6113.github.io/files/papers/volcanoparallelism-89.pdf) 
 
 # Details
 
